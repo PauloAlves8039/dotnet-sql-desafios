@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafios.Tarefa1", "src\Des
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Desafio", "1 - Desafio", "{09F86E69-1879-413F-AA67-8CE442DADF57}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Desafio", "3 - Desafio", "{EC3AA1AA-E8C0-4EFE-8ABE-59EE3CE1E840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafios.Tarefa3", "src\Desafios.Tarefa3\Desafios.Tarefa3.csproj", "{EF13C5AD-3AAE-46A4-94C0-2244FDD29D95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{EFFFE7C7-74E8-408E-AD84-2A4F9451AF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFFFE7C7-74E8-408E-AD84-2A4F9451AF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFFFE7C7-74E8-408E-AD84-2A4F9451AF29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF13C5AD-3AAE-46A4-94C0-2244FDD29D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF13C5AD-3AAE-46A4-94C0-2244FDD29D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF13C5AD-3AAE-46A4-94C0-2244FDD29D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF13C5AD-3AAE-46A4-94C0-2244FDD29D95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EFFFE7C7-74E8-408E-AD84-2A4F9451AF29} = {09F86E69-1879-413F-AA67-8CE442DADF57}
+		{EF13C5AD-3AAE-46A4-94C0-2244FDD29D95} = {EC3AA1AA-E8C0-4EFE-8ABE-59EE3CE1E840}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81233945-9189-4ECD-ADF0-5645FE5CE23C}
