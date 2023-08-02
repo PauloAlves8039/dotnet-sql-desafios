@@ -2,19 +2,19 @@
 {
     private static void Main(string[] args)
     {
-        int[] arrayNumber = { 7, 5, 3, 9, 6, 4, 1 };
+        int[] inputArray = { 7, 5, 3, 9, 6, 4, 1 };
 
         Console.Write("\nLista original: ");
-        PrintArrayConsole(arrayNumber);
+        PrintArrayConsole(inputArray);
 
-        ChangeElement(arrayNumber);
+        ChangeElement(inputArray);
 
-        arrayNumber = RemoveElement(arrayNumber, 4);
+        inputArray = RemoveElement(inputArray, 4);
 
         Console.Write("\nNova lista: ");
-        PrintArrayConsole(arrayNumber);
+        PrintArrayConsole(inputArray);
 
-        Console.Write("\nSoma dos valores da nova lista: " + SumAllElements(arrayNumber));
+        Console.Write("\nSoma dos valores da nova lista: " + SumAllElements(inputArray));
 
         Console.ReadLine();
     }
