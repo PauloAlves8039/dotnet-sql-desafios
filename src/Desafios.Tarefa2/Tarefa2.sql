@@ -16,10 +16,10 @@ SELECT COUNT(Codigo) as TotalFinal
 FROM Pedido 
 WHERE CodigoComprador <> 123
 
-
 /*
-   Para encontrar o resultado da terceira query precisamos subtrair o valor retornado na segunda query (Total123) com o valor retornado da primeira query (Total).
-   TotalFinal = Total - Total123 
-   Com isso encontraremos o número de registros em que o campo "CodigoComprador" seja diferente de 123.
+   Para encontrar o resultado da terceira query "TotalFinal" precisamos subtrair o valor retornado da primeira query "Total" com o valor da segunda query "Total123".
+   Com isso encontraremos um total de registros em que o campo "CodigoComprador" tenha valores diferentes de 123.
+   
+   TotalFinal = 100 - 15  
    Temos o resultado: TotalFinal = 85
 */
